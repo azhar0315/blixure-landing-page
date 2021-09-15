@@ -1,0 +1,72 @@
+
+.container1 {
+  position: relative;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+/* .bottom1 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: black;
+} */
+/* Top left text */
+.topleft1 {
+  position: absolute;
+  top: 30%;
+  left:15%;
+  color: black;
+  font-size: 49px;
+  font-weight: bolder;
+  width: 28%;
+  animation-name: example;
+  animation-duration: 4s;
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 4s; */
+
+}
+
+/* Top right text */
+.topleft2{
+  position: absolute;
+  top: 53%;
+  left:17% ;
+  color:black;
+  font-size: 13px; 
+  animation-name: example1;
+  animation-duration: 4s;
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes example {
+  from {left: -30%;}
+  to {left: 15%;}
+}
+@keyframes example1{
+  from  { left: 75%}
+  to    {left:17% }
+}
+
+
+/* Bottom right text */
+/* .bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color:chartreuse
+} */
+
+/* Centered text */
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* .div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+} */
