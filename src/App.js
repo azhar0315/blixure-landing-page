@@ -16,10 +16,10 @@ function App() {
        <Hero></Hero>
        <Shopbrand></Shopbrand>
        <Bookservice></Bookservice>
-       <Enterraffles></Enterraffles>
+       {/* <Enterraffles></Enterraffles> */}
        <Contactus></Contactus>
-       <Brandgrowth></Brandgrowth>
-     
+       {/* <Brandgrowth></Brandgrowth>
+      */}
     </div>
   
      

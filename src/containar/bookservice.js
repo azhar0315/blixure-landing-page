@@ -4,8 +4,8 @@ import bgimg from "../assets/images/image5.png";
 
 export const Bookservice = () => {
     return (
-        <div class="flex  bg-black w-full ">
-        <div  class={`${classes.div1} text-white`}>
+        <div class="  lg:flex items-center bg-black ">
+        <div  class= "pl-52 pt-16 text-white">
              <h1 className={` text-4xl`}>
                  Book Service
              </h1>

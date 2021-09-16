@@ -4,8 +4,8 @@ import classes from './contactus.module.css'
 
 export const Contactus = () => {
     return (
-        <div class="flex bg-black w-full">
-            <div class={`${classes.div1} text-white`}>
+        <div class="lg:flex items-center bg-black">
+            <div class={`pl-52 pt-16 text-white`}>
                 <h1 class="text-4xl">
                     Contact Us
                 </h1>
@@ -17,7 +17,7 @@ export const Contactus = () => {
                 </button>
 
             </div>
-            <div class="pl-96 py-12 ">
+            <div class="pl-40 py-12 ">
                 <img className={ classes.image1} src={bgimg} alt="Italin Trulli"/>
             </div>
             

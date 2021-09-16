@@ -1,24 +1,22 @@
 
 .container1 {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   /* overflow: hidden; */
 }
-
-/* .bottom1 {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  color: black;
+/* .div1{
+   position:absolute; 
+  position:relative;
 } */
+
 /* Top left text */
 .topleft1 {
   position: absolute;
   top: 30%;
   left:15%;
   color: black;
-  font-size: 49px;
-  font-weight: bolder;
+  /* font-size: 49px;
+  font-weight: bolder; */
   width: 28%;
   animation-name: example;
   animation-duration: 4s;
@@ -33,12 +31,25 @@
   top: 53%;
   left:17% ;
   color:black;
-  font-size: 13px; 
+  /* font-size: 13px;  */
   animation-name: example1;
   animation-duration: 4s;
   /* animation-delay: 2s; */
   /* animation-iteration-count: infinite; */
 }
+/* @media screen and (max-width: 640px) {
+  .topleft1 {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      color:red;
+      font-size: 20px;
+      font-weight: bolder; 
+      width: 40%; 
+      animation-name: example;
+      animation-duration: 4s;
+    }
+  } */
 
 @keyframes example {
   from {left: -30%;}
@@ -50,23 +61,3 @@
 }
 
 
-/* Bottom right text */
-/* .bottomright {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  color:chartreuse
-} */
-
-/* Centered text */
-/* .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-/* .div {
-  height: 200px;
-  width: 50%;
-  background-color: powderblue;
-} */

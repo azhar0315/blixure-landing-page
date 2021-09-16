@@ -1,4 +1,10 @@
 .header1{
-    
     background-color: #F3F3F4;
 }
+
+  
+  /* @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
